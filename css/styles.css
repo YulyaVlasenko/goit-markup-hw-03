@@ -225,7 +225,9 @@ img {
 .hero {
     background-color: var(--background-color-dark);
     text-align: center;
-
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
 }
 
 .hero-title {
@@ -236,6 +238,9 @@ img {
     letter-spacing: 0.06em;
     font-weight: 900;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 696px;
 }
 
 .hero-button {
@@ -260,6 +265,10 @@ img {
 }
 
 /* Subhero */
+
+.features {
+    padding-top: 94px;
+}
 
 .subtitle {
     text-transform: uppercase;
@@ -378,10 +387,12 @@ img {
 .projects .content-desc {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .section.works {
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .projects {
@@ -424,8 +435,7 @@ img {
 
 .buttons-filters {
     display: flex;
-    padding-bottom: 16px;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .buttons-filters .item + .item {
@@ -443,7 +453,6 @@ img {
 /* Header*/
 
 .header {
-    padding-bottom: 94px;
     border-bottom: 1px solid #ECECEC;
 }
 
